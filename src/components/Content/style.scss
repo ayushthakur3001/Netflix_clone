@@ -1,0 +1,70 @@
+@import '../../global.scss';
+.content {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+  @include mobile{
+      margin-top: 70px;
+  }
+
+  .heading {
+    margin: 0;
+    max-width: 500px;
+    font-size: 45px;
+    @include mobile{
+        font-size: 30px;
+    }
+    
+  }
+  h2 {
+    font-size: 25px;
+    font-weight: 500;
+    @include mobile{
+        font-size: 20px;
+    }
+  }
+  h3 {
+    font-weight: 500;
+  }
+  .emailInput{
+      display: flex;
+      align-items: center;
+      @include mobile{
+          flex-direction: column;
+      }
+      input{
+        height: 50px;
+        width: 300px;
+        outline: none;
+        font-size: 18px;
+        padding-left: 10px;
+        @include mobile{
+            width: 280px;
+        }
+      }
+      button{
+          display: flex;
+          align-items: center;
+          background-color: $mainColor;
+          height: 56px;
+          outline: none;
+          border:none;
+          color: white;
+          font-size: 20px;
+          cursor: pointer;
+          &:hover{
+            background-color: $hoverColor;
+          }
+          @include mobile{
+              height: 40px;
+              margin-top: 10px;
+              
+          }
+
+      }
+
+  }
+}

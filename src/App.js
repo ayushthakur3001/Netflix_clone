@@ -1,8 +1,10 @@
 import './index.css'
+import { Landing } from './pages/Landing'
+
 const App = () => {
   return (
     <div className='app'>
-      netflix
+      <Landing/>
     </div>
   )
 }
