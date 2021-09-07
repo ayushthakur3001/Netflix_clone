@@ -1,6 +1,6 @@
 $mainColor: #E50914;
 $hoverColor: rgba(230, 24, 34, 0.788);
-$width: 468px;
+$width: 668px;
 
 @mixin mobile{
     @media(max-width: #{$width}){
