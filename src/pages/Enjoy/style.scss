@@ -1,6 +1,6 @@
 @import '../../global.scss';
 .enjoy {
-  height: 70vh;
+  height: 85vh;
   background-color: black;
   display: flex;
   color: white;
@@ -19,7 +19,10 @@
   }
   .left {
     > div{
-        margin-left: 20px;
+        margin-left: 70px;
+        @include mobile{
+          margin-left: 0;
+        }
     }
     p {
       margin: 0;
@@ -31,7 +34,7 @@
       }
     }
     h3{
-        font-weight: 500;
+      font-weight: 500;
         font-size: 27px;
         @include mobile{
             font-size: 20px;
