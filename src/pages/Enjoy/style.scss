@@ -8,6 +8,7 @@
   @include mobile{
       flex-direction: column;
       height: 80vh;
+      
   }
   .left, .right{
     flex: 1;
@@ -44,14 +45,16 @@
         position: absolute;
         width: 500px;
         @include mobile{
-            width: 100vw;
+            width: 78vw;
         }
     }
     .scene{
-        width: 350px;
-        margin-bottom: 20px;
-        margin-right: 30px;
-        
+        width: 375px;
+        margin-bottom: 50px;
+        margin-right: 5px;
+        @include mobile{
+          width: 50vw;
+        }
         
     }
 
