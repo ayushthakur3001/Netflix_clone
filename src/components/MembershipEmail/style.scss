@@ -1,0 +1,70 @@
+@import "../../global.scss";
+.emailForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  h3 {
+    font-weight: 500;
+    font-family: sans-serif;
+    text-align: center;
+    @include mobile{
+      max-width: 300px;
+    }
+  }
+  .emailInput {
+    display: flex;
+    align-items: center;
+    @include mobile {
+      flex-direction: column;
+    }
+  
+    .emailField {
+      height: 50px;
+      width: 500px;
+      outline: none;
+      font-size: 18px;
+      padding-left: 10px;
+      @include mobile {
+        width: 80vw;
+        border-radius: 3px;
+      }
+    }
+    .emailTransition{
+      height: 50px;
+      width: 500px;
+      outline: none;
+      font-size: 14px;
+      padding-left: 10px;
+      @include mobile {
+        width: 80vw;
+        border-radius: 3px;
+      }
+
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      background-color: $mainColor;
+      height: 56px;
+      outline: none;
+      border: none;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+      &:hover {
+        background-color: $hoverColor;
+      }
+      @include mobile {
+        height: 40px;
+        margin-top: 10px;
+        border-radius: 3px;
+      }
+    }
+  }
+  
+}
+.extraClass{ 
+  margin: 50px 0 100px 0;
+}
