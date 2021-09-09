@@ -1,0 +1,63 @@
+@import '../../global.scss';
+
+.faqs{
+    background-color: rgb(48,48,48);
+    max-width: 780px;
+    width: 100%;
+    height: 70px;
+    margin: 5px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    @include mobile{
+        height: 60px;
+    }
+    p{
+        font-size: 2vw;
+        margin-left: 30px;
+        text-align: start;
+        font-family: sans-serif;
+        @include mobile{
+            font-size: 18px;
+        }
+    }
+    .addIcon{
+        margin-right: 30px;
+        color: white;
+        font-family: sans;
+        font-size: 40px;
+    }
+    .rotate{
+        transform: rotate(45deg);
+    }
+}
+.answer{
+    background-color: rgb(48,48,48);
+    max-width: 780px;
+    width: 100%;
+    animation: slideIn 0.4s forwards;
+    z-index: 1;
+    position: relative;
+    top: -4px;
+    p{
+        font-size: 2vw;
+        text-align: start;
+        margin-left: 30px;
+        font-family: sans-serif;
+        @include mobile{
+            font-size: 18px;
+        }
+    } 
+
+}
+@keyframes slideIn {
+    from{
+        transform: translateY(-5%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+    
+}

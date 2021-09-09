@@ -4,6 +4,7 @@ import { Enjoy } from './pages/Enjoy'
 import { Download } from './pages/Download'
 import { Watch } from './pages/Watch'
 import { Kids } from './pages/Kids'
+import { Faq } from './pages/FAQ'
 const App = () => {
   return (
     <div className='app'>
@@ -12,6 +13,7 @@ const App = () => {
       <Download/>
       <Watch />
       <Kids/>
+      <Faq/>
     </div>
   )
 }
