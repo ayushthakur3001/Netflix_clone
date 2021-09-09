@@ -13,7 +13,6 @@ export const Kids = () => {
                 <p className='heading'>Create profiles for children.</p>
                 <h3>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</h3>
                 </div>
-                
             </div>
         </div>
     )
