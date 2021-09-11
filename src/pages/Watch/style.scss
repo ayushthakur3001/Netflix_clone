@@ -1,9 +1,0 @@
-@import '../../global.scss';
-.watchV{
-    width: 325px;
-        margin-bottom: 90px;
-        margin-right: 5px;
-        @include mobile{
-          width: 40vw;
-        }
-}
