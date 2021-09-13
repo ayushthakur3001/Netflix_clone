@@ -1,5 +1,5 @@
 import "./style.scss";
-import { Language } from "../../components/Language";
+import { Language } from "../Language";
 const links = [
   ["FAQ", "Ways to Watch", "Cookie Preferences", "Speed Test"],
 
@@ -18,7 +18,7 @@ const FooterList = ({ list }) => {
   return (
     <ul className="list">
       {list.map((li) => (
-        <li key={Math.random()}>{li}</li>
+        <li className='footerList' key={Math.random()}>{li}</li>
       ))}
     </ul>
   );

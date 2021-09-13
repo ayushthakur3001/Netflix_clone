@@ -1,6 +1,6 @@
 import "./style.scss";
-import { Navbar } from "../../components/Navbar";
-import { Content } from "../../components/Content";
+import { Navbar } from "../Navbar";
+import { Content } from "../Content";
 
 export const Landing = () => {
   return (

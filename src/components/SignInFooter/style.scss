@@ -1,0 +1,56 @@
+@import "../../global.scss";
+.sign-footer {
+  background-color: rgba(0, 0, 0, 0.767);
+  width: 100vw;
+  margin-top: 60px;
+  color: rgb(117, 117, 117);
+  @include mobile {
+    margin-top: 0;
+    border-top: 1px solid white;
+    background-color: black;
+  }
+  h5 {
+    margin: 20px 100px;
+    font-size: 15px;
+    font-family: sans-serif;
+    span {
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    @include mobile {
+      margin: 20px 20px;
+    }
+  }
+  .language {
+    margin-left: 100px;
+    margin-bottom: 40px;
+    @include mobile {
+      margin-left: 20px;
+    }
+  }
+}
+.footer-ul {
+  max-width: 70vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 55px;
+  .footer-li {
+    font-size: 14px;
+    width: 150px;
+    list-style-type: none;
+    margin: 5px;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+    @include mobile{
+      width: 110px;
+    }
+  }
+  @include mobile {
+    margin: 20px 15px;
+    padding: 0;
+  }
+}

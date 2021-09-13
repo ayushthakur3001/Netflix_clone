@@ -1,0 +1,14 @@
+@import '../../global.scss';
+.signin {
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  border-bottom: 10px solid rgb(34,34,34);
+  background-image: url("../../assets/background.png");
+  background-repeat: no-repeat;
+  @include mobile{
+    border-bottom: none;
+  }
+}

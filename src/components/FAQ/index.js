@@ -1,6 +1,6 @@
 import './style.scss'
-import { Questions } from '../../components/Questions'
-import { EmailInput } from "../../components/MembershipEmail";
+import { Questions } from '../Questions'
+import { EmailInput } from "../MembershipEmail";
 export const Faq = () => {
     return (
         <div className='faq'>
